@@ -1,20 +1,20 @@
-<div style="text-align:center;position:relative;width:350px;margin:0 auto;padding:20px;background-color:#f0f0f0;border-radius:15px;">
+<div style="text-align:center;position:relative;width:260px;margin:0 auto;padding:15px;background-color:#f0f0f0;border-radius:15px;">
 
   <!-- Logo circular -->
-  <img src="https://i.ibb.co/JRKpfYRH/fdsfdsf.png" alt="Logo" style="width:70px;height:70px;border-radius:50%;object-fit:cover;margin-bottom:10px;box-shadow:0 0 10px rgba(0,0,0,0.2);">
+  <img src="https://i.ibb.co/JRKpfYRH/fdsfdsf.png" alt="Logo" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin-bottom:10px;box-shadow:0 0 10px rgba(0,0,0,0.2);">
 
   <!-- Título abaixo da logo -->
-  <h2 style="margin:0 0 20px;font-family:'Montserrat',sans-serif;font-size:18px;color:#333;font-weight:700;">Roleta premiada</h2>
+  <h2 style="margin:0 0 15px;font-family:'Montserrat',sans-serif;font-size:20px;color:#333;font-weight:700;">Roleta premiada</h2>
 
   <!-- Container da roleta com o fundo quadrado -->
   <div style="position:relative;display:inline-block;width:100%;">
 
-    <!-- Roleta -->
+    <!-- Roleta menor -->
     <div id="wheel" style="
-      width:300px;
-      height:300px;
+      width:220px;
+      height:220px;
       border-radius:50%;
-      border:10px solid #001f3f;
+      border:8px solid #001f3f;
       overflow:hidden;
       transform:rotate(0deg);
       transition:transform 15s cubic-bezier(0.29, 0.8, 0.25, 1);
@@ -31,24 +31,24 @@
           transform: rotate(40deg);
           font-family: 'Montserrat', sans-serif;
           font-weight: 600;
-          font-size: 22px;
+          font-size: 14px;
           color: white;
         ">Tente <br>outra<br> vez.</span>
       </div>
 
       <!-- Moto -->
       <div style="position:absolute;width:50%;height:50%;background:#ffae00;top:0;left:50%;transform-origin:0% 100%;transform:rotate(90deg);">
-        <img src="https://i.ibb.co/V0n7vJvT/fsdf.png" style="width:100%;height:100%;object-fit:contain;transform:rotate(40deg);position:absolute;top:50%;left:50%;transform:translate(-50%, -50%) rotate(40deg);border-radius:0;">
+        <img src="https://i.ibb.co/V0n7vJvT/fsdf.png" style="width:100%;height:100%;object-fit:contain;transform:rotate(40deg);position:absolute;top:50%;left:50%;transform:translate(-50%, -50%) rotate(40deg);">
       </div>
 
       <!-- Perdeu com imagem azul -->
       <div style="position:absolute;width:50%;height:50%;background:#215cf3;top:0;left:50%;transform-origin:0% 100%;transform:rotate(180deg);">
-        <img src="https://i.ibb.co/p6vWYVL8/GGSFG.png" style="width:80%;height:80%;object-fit:contain;transform:rotate(40deg);position:absolute;top:55%;left:45%;transform:translate(-50%, -50%) rotate(40deg);border-radius:0;">
+        <img src="https://i.ibb.co/p6vWYVL8/GGSFG.png" style="width:80%;height:80%;object-fit:contain;transform:rotate(40deg);position:absolute;top:55%;left:45%;transform:translate(-50%, -50%) rotate(40deg);">
       </div>
 
       <!-- iPhone -->
       <div style="position:absolute;width:50%;height:50%;background:#25bd5b;top:0;left:50%;transform-origin:0% 100%;transform:rotate(270deg);">
-        <img src="https://i.ibb.co/RMPRMsS/fsfsdd.png" style="width:60%;height:60%;object-fit:contain;transform:rotate(40deg);position:absolute;top:58%;left:42%;transform:translate(-50%, -50%) rotate(40deg);border-radius:0;">
+        <img src="https://i.ibb.co/RMPRMsS/fsfsdd.png" style="width:60%;height:60%;object-fit:contain;transform:rotate(40deg);position:absolute;top:58%;left:42%;transform:translate(-50%, -50%) rotate(40deg);">
       </div>
     </div>
 
@@ -60,13 +60,13 @@
       transform: translateX(-50%) rotate(180deg);
       width: 0;
       height: 0;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-bottom: 40px solid transparent;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-bottom: 30px solid transparent;
     ">
       <div style="
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         background: repeating-linear-gradient(
           45deg,
           yellow,
@@ -75,7 +75,7 @@
           black 10px
         );
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-        border: 3px solid #001f3f;
+        border: 2px solid #001f3f;
         position: absolute;
         top: 0;
         left: 0;
@@ -85,10 +85,10 @@
   </div>
 
   <!-- Botão -->
-  <div style="margin-top:20px;">
+  <div style="margin-top:15px;">
     <button onclick="spinWheel()" style="
-      padding:10px 20px;
-      font-size:18px;
+      padding:8px 16px;
+      font-size:16px;
       background-color:#01bf63;
       color:white;
       border:none;
@@ -100,7 +100,7 @@
   </div>
 
   <!-- Resultado -->
-  <div id="result" style="margin-top:20px;font-family: 'Montserrat', sans-serif;font-size:20px;font-weight:bold;"></div>
+  <div id="result" style="margin-top:15px;font-family: 'Montserrat', sans-serif;font-size:16px;font-weight:bold;"></div>
 
 </div>
 
